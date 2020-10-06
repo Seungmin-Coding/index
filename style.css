@@ -1,0 +1,283 @@
+body{
+  color: white;
+  background-color: black;
+  margin: 0;
+}
+.first_background{
+  background: url(Background1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 770px;
+  filter: brightness(50%);
+  border-bottom: 8px rgb(34,34,34) solid;
+}
+.body1{
+  position: absolute;
+  top:0px;
+  background-size: cover;
+  width:100%;
+}
+.body2{
+  background: url(Background2.jpg);
+  background-repeat: no-repeat;
+  height:326px;
+  border-bottom: 8px rgb(34,34,34) solid;
+  text-align: left;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-position: 1000px 0px;
+}
+.body3{
+  background: url(Background3.jpg);
+  background-repeat: no-repeat;
+  height: 322px;
+  border-bottom: 8px rgb(34,34,34) solid;
+  padding-left: 45px;
+  padding-right: 300px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: right;
+  background-position: 300px 0px;
+}
+.body4{
+  background: url(Background4.png);
+  background-repeat: no-repeat;
+  height: 395px;
+  border-bottom: 8px rgb(34,34,34) solid;
+  padding-left: 300px;
+  padding-right: 45px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: left;
+  background-position: 1000px 0px;
+}
+.body5{
+  border-bottom: 8px rgb(34,34,34) solid;
+  height: 890px;
+  text-align: center;
+}
+.body6{
+  margin: 0 406.5px 0 406.5px;
+  padding : 70px 0 45px 45px;
+  color: #757575;
+}
+.info1{
+  text-align: center;
+  margin-left: 249.5px;
+  margin-right: 249.5px;
+  padding-top: 145px;
+  padding-bottom: 145px;
+}
+.info2{
+  margin-left: 104.5px;
+  margin-right: 104.5px;
+}
+.info3{
+  margin-left: 104.5px;
+  margin-right: 104.5px;
+}
+.info4{
+  margin-left: 104.5px;
+  margin-right: 104.5px;
+}
+#head1{
+  padding-top: 20px;
+  margin-left: 56px;
+  margin-right: 56px;
+}
+#head2{
+  font-size: 4rem;
+  font-weight: 700;
+}
+#head3{
+  font-size: 1.625rem;
+  font-weight: 400;
+}
+#head4{
+  font-size: 19.2px;
+  font-weight: 400;
+}
+#netflix{
+ font-family: 'BebasNeue';
+ font-weight: bold;
+ font-style: normal;
+ src: url('../fonts/BebasNeue/BebasNeue Thin.otf') format('opentype');
+ color: #e50914;
+ font-size: 2.5rem;
+}
+
+.buttons{
+  position:absolute;
+  right: 56px;
+  padding-top: 8px;
+}
+
+#button1{
+  background-color: black;
+  color:white;
+  font-size: 13px;
+  text-align: center;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 1px solid white;
+  margin-right: 32px;
+}
+#button2{
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border : 0;
+}
+#box1{
+  font-size: 16px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: relative;
+  bottom: 8px;
+  left:6px;
+}
+#botton3{
+  font-size: 30px;
+  background-color: red;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: 0;
+}
+#button5{
+  background-color: black;
+  color: #757575;
+  font-size: 13px;
+  text-align: center;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 1px solid #757575;
+  margin-right: 32px;
+}
+#TV{
+  font-size: 3.125rem;
+}
+#smartTV{
+  font-size: 1.625rem;
+  font-weight: 400;
+}
+#content{
+  font-size: 3.125rem;
+}
+#save{
+  font-size: 1.625rem;
+  font-weight: 400;
+}
+#device{
+  font-size: 3.125rem;
+}
+#movie{
+  font-size: 1.625rem;
+  font-weight: 400;
+}
+#question{
+  font-size: 3.125rem;
+}
+#FQA1{
+  background-color: #303030;
+  text-align: left;
+  font-weight: 400;
+  padding: .8em 2.2em .8em 1.2em;
+  color: white;
+  font-size: 1.625rem;
+  border : 0;
+  width: 45%;
+  margin-bottom: 8px;
+}
+#FQA2{
+  background-color: #303030;
+  text-align: left;
+  font-weight: 400;
+  padding: .8em 2.2em .8em 1.2em;
+  color: white;
+  font-size: 1.625rem;
+  border : 0;
+  width: 45%;
+  margin-bottom: 8px;
+}
+#FQA3{
+  background-color: #303030;
+  text-align: left;
+  font-weight: 400;
+  padding: .8em 2.2em .8em 1.2em;
+  color: white;
+  font-size: 1.625rem;
+  border : 0;
+  width: 45%;
+  margin-bottom: 8px;
+}
+#FQA4{
+  background-color: #303030;
+  text-align: left;
+  font-weight: 400;
+  padding: .8em 2.2em .8em 1.2em;
+  color: white;
+  font-size: 1.625rem;
+  border : 0;
+  width: 45%;
+  margin-bottom: 8px;
+}
+#FQA5{
+  background-color: #303030;
+  text-align: left;
+  font-weight: 400;
+  padding: .8em 2.2em .8em 1.2em;
+  color: white;
+  font-size: 1.625rem;
+  border : 0;
+  width: 45%;
+  margin-bottom: 8px;
+}
+#FQA6{
+  background-color: #303030;
+  text-align: left;
+  font-weight: 400;
+  padding: .8em 2.2em .8em 1.2em;
+  color: white;
+  font-size: 1.625rem;
+  border : 0;
+  width: 45%;
+  margin-bottom: 8px;
+}
+#FQAinfo{
+    font-size: 19.2px;
+    font-weight: 400;
+}
+#botton4{
+  font-size: 30px;
+  background-color: red;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: 0;
+}
+#box2{
+  font-size: 16px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: relative;
+  bottom: 8px;
+  left:6px;
+}
+#hp{
+  font-size: 1em;
+}
